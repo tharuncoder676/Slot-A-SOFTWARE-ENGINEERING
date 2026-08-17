@@ -6,6 +6,27 @@
 
 ---
 
+## Screenshots
+
+| # | Screenshot | Shows |
+|---|---|---|
+| 1 | ![Cloned repository](01-cloned-repository.png) | The shared repository that was cloned, with the new `experiment-15` folder, 2 branches and 1 open pull request |
+| 2 | ![Branches](02-branches.png) | `feature/experiment-15` listed alongside the default `main` branch |
+| 3 | ![Commits](03-feature-branch-commits.png) | Commit history of the feature branch, including the merge commit |
+| 4 | ![Merge commit](04-merge-commit-resolution.png) | The merge commit `423042b` showing **2 parents** (`dea428f` + `1236c6a`) — proof of a real merge |
+| 5 | ![Network graph](05-network-graph.png) | GitHub's network graph showing the branch diverging from and merging back into `main` |
+| 6 | ![Pull request](06-pull-request.png) | Pull request #1 opened from `feature/experiment-15` into `main` |
+| 7 | ![Files changed](07-pull-request-files-changed.png) | The diff of all files changed in the pull request |
+| 8 | ![Folder](08-experiment-15-folder.png) | Contents of the `experiment-15` folder on the feature branch |
+| 9 | ![Merge conflict](09-merge-conflict-terminal.png) | **`git merge main` failing with `CONFLICT`**, and `git status --short` reporting both files as `UU` (unmerged) |
+| 10 | ![Conflict markers](10-conflict-markers-in-file.png) | The conflict markers Git wrote into `calculator.py` — all four hunks, `HEAD` vs `main` |
+| 11 | ![Resolved](11-resolved-and-committed.png) | Verifying no markers remain, running the merged code, `git add` to mark resolved, and the merge commit with the branch graph |
+
+> Screenshots 1–8 are captures of the live GitHub pages. Screenshots 9–11 are
+> the verbatim terminal output of the session, rendered for legibility.
+
+---
+
 ## Aim
 
 To demonstrate the collaborative Git workflow: cloning a shared repository,
