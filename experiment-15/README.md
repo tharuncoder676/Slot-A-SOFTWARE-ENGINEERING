@@ -5,5 +5,9 @@ To demonstrate collaborative development using Git branches, and to create,
 encounter and resolve a merge conflict between a feature branch and `main`.
 
 ## Status
-Feature branch `feature/experiment-15`: added a `multiply()` function and
-made `divide()` raise a `ValueError` when the divisor is zero.
+Merged. The feature branch contributed `multiply()`, the teammate's work on
+`main` contributed `power()`, and both are kept. The two different fixes for
+division by zero were reconciled in favour of raising a `ValueError`.
+
+See [MERGE-CONFLICT-REPORT.md](MERGE-CONFLICT-REPORT.md) for the full write-up
+of the steps performed, the conflicts encountered and how they were resolved.
