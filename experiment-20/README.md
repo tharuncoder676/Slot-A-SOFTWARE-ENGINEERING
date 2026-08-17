@@ -18,7 +18,7 @@ the conflicts that arise, and document the workflow in the README.
 
 ![Team project repository](01-team-repository-main.png)
 
-The repository home page showing 5 branches, 13 commits, all four modules
+The repository home page showing 6 branches, 13 commits, all four modules
 merged, and the workflow documentation in the README.
 
 ---
